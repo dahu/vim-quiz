@@ -194,6 +194,13 @@ function! StartVimQuiz()
   let b:qnum = -1
   call s:NextQuestion()
   call b:timer.start()
+
+  let b:tiktok_pid = system(findfile('bin/tiktok', &rtp).' vimquiz "b:timer.tick()" &')
+
+  augroup VIMQUIZ
+    au!
+    au VimLeave * call system("kill " . b:tiktok_pid)
+  augroup END
 endfunction
 
 " Commands: {{{1

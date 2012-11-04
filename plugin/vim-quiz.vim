@@ -138,13 +138,13 @@ endfunction
 function! s:QuizBanner()
   %delete
   append
-  #####
+   #####
   #     #  #    #     #    ######
   #     #  #    #     #        #
   #     #  #    #     #       #
   #   # #  #    #     #      #
   #    #   #    #     #     #
-  #### #   ####      #    ######
+   #### #   ####      #    ######
 
   Press ENTER to begin
 .

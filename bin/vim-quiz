@@ -1,0 +1,8 @@
+#!/bin/sh
+# vim-quiz - tiktok example of toy quiz app
+# Barry Arthur   Nov 2012
+
+tiktok 'vimquiz' 'b:timer.tick()' &
+tiktok_pid=$!
+vim --servername vimquiz -c "call StartVimQuiz()"
+kill $tiktok_pid

@@ -1,0 +1,16 @@
+*vim-quiz.txt*	For Vim version 7.3	Last change: 2012-11-04
+
+
+			VIM REFERENCE MANUAL	by Barry Arthur
+
+
+Help on using vim-quiz                                               *vim-quiz*
+
+1. Introduction				|vim-quiz-intro|
+
+==============================================================================
+ 1. INTRODUCTION                                               *vim-quiz-intro*
+
+Vim-Quiz is a toy quiz application demonstrating the tiktok timer library.
+
+ vim:tw=78:ts=8:ft=help:norl:

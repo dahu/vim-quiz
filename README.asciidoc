@@ -1,0 +1,9 @@
+Vim Quiz
+--------
+
+A demo application for the https://github.com/dahu/tiktok[tiktok] timer library.
+
+* Shows a series of questions requiring answers within a time limit.
+* Keeps track of number of questions asked and current score.
+* Shows when an answer is correct or incorrect.
+* Gives the correct answer when user was incorrect.

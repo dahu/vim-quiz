@@ -1,4 +1,4 @@
-*vim-quiz.txt*	For Vim version 7.3	Last change: 2012-11-04
+*vim-quiz.txt*	Toy demo of dahu/tiktok timer library
 
 
 			VIM REFERENCE MANUAL	by Barry Arthur
